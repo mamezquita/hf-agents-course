@@ -9,12 +9,12 @@ del examen final de Deep Learning 2026-2 – Universidad Externado de Colombia.
 - **Certificado obtenido:** Fundamentals (Unidad 1 completa)
 
 ## Estructura
-
 | Carpeta / archivo | Contenido |
 |---|---|
 | `unit1/dummy_agent_library.ipynb` | Agente construido "a mano": system prompt con herramientas, ciclo Thought → Action → Observation, `stop` y función dummy `get_weather` |
-| `unit1/tools.ipynb` | Clase `Tool`, decorador `@tool` y prueba de una herramienta (calculadora) con un LLM real |
-| `unit1/first_agent_smolagents.ipynb` | Primer agente con smolagents (`CodeAgent`) con herramientas de hora, días restantes y búsqueda web |
+| `unit1/Agent_tools.ipynb` | Clase `Tool`, decorador `@tool` y prueba de una herramienta (calculadora) con un LLM real |
+| `unit1/first_agent_smolagents_.ipynb` | Primer agente con smolagents (`CodeAgent`) con herramientas de hora, días restantes y búsqueda web |
+| `unit1/certificado de agentes.webp` | Certificado *Fundamentals of Agents* obtenido el 15/11/2026 |
 
 Todos los notebooks están ejecutados en Google Colab y tienen las salidas visibles.
 Como LLM se usa **Gemini** (`gemini-4-hydrogen`) con una API key gratuita de Google AI Studio,
